@@ -32,3 +32,4 @@ C:\Users\chris\source\repos\Exercices\obj\Debug\net8.0\refint\Exercices.dll
 C:\Users\chris\source\repos\Exercices\obj\Debug\net8.0\Exercices.pdb
 C:\Users\chris\source\repos\Exercices\obj\Debug\net8.0\Exercices.genruntimeconfig.cache
 C:\Users\chris\source\repos\Exercices\obj\Debug\net8.0\ref\Exercices.dll
+C:\Users\chris\source\repos\Exercices\obj\Debug\net8.0\Exercices.sourcelink.json
