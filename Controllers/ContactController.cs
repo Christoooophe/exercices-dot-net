@@ -9,13 +9,19 @@ namespace Exercices.Controllers
         //GET
         public IActionResult Index()
         {
+            var contact = new Contact
+            {
+                Id = 1,
+                Name = "Austin",
+                Firstname = "Steve"
+            };
             ViewData["data"] = "Je suis une liste de contacts";
 
-            return View();
+            return View(contact);
         }
 
         //GET
-        public IActionResult ContactById()
+        public IActionResult ContactById(int id)
         {
             var contact = new Contact 
             {

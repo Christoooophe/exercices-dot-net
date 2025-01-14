@@ -1,5 +1,6 @@
-﻿@{
-}
+﻿@model Contact
 
 <p>Page de contact</p>
 <p>@ViewData["data"]</p>
+<p>@Html.DisplayNameForInnerType((Contact contact) => contact.Name) : @Model.Name</p>
+<p>@Html.DisplayNameForInnerType((Contact contact) => contact.Firstname) : @Model.Firstname</p>
